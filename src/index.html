@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/appMain.css" media="screen"/>
+    <script src="src.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+    <script type='text/javascript' src='./knockout-3.4.0.js'></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-3.4.0.js"></script>
+</head>
+<body>
+    <!-- ko foreach: tasks -->
+    <div id="main">
+        <header>
+            <button id="login" data-bind="click: $parent.login">Login</button>
+        </header>
+        <h1>Get Done</h1>
+
+        <div class="classTasks">
+            <h3>Class</h3>
+            <button class="NewTask" data-bind="click: $parent.beginAdd">NewTask</button>
+        </div>
+
+
+        <div class="otherTasks">
+            <h3>Other</h3>
+            <button class="NewTask" data-bind="click: $parent.addTask">NewTask</button>
+            
+        </div>
+    </div>
+    <!-- /ko -->
+</body>
+</html>

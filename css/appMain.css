@@ -1,0 +1,81 @@
+/* ==========================================================================
+PAGE
+========================================================================== */
+body{
+     background-color:#232323;
+     margin-left:10%;
+     margin-right:10%;
+    }
+
+h1{
+    text-align: center;
+    color: #B0D200;
+    font-family: "Tahoma";
+
+}
+
+h3{
+    color:#B0D200;
+    background-color: #232323;
+    padding: 10px;
+    font-family: "Tahoma";
+
+}
+
+/* ==========================================================================
+   EDUCATION 
+   ========================================================================== */
+.classTasks:not(h3){
+    background-color:#3d3d3d
+;
+
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left:100px;
+    float:left;
+
+    width:500px;
+    height:420px;
+}
+
+/* ==========================================================================
+OTHER
+========================================================================== */
+.otherTasks:not(h3){
+    background-color:#3d3d3d;
+
+    margin-right:100px;
+    padding: 20px;
+    float:right;
+
+    width:500px;
+    height: 420px;
+
+}
+
+img{
+    vertical-align: center;
+}
+
+/* ==========================================================================
+   BUTTONS/INTERACTIVE  
+   ========================================================================== */
+
+button{
+    border: none;
+    background-color:#232323;
+    color:#B0D200;
+}
+
+#login{
+
+    float:right;
+
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.NewTask{
+
+}
